@@ -41,14 +41,36 @@ body {
     border-top: 40px solid #10311d;
     background-image: linear-gradient(to bottom right, rgb(248, 233, 212),#10311d);
   }
-  
+  .grant-main {
+    grid-column: 1/span 2;
+    grid-row: 2;
+    background-image: url(assets/digital-nature.jpg);
+    background-size: cover;
+  }
+  .grant-main-text {
+    background-color: #fff;
+    margin: 50px 100px;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+  }
+  .grant-title {
+    border-bottom: 6px ridge black;
+    padding-bottom: 10px;
+    font-size: 2em;
+  }
+  .grant-link {
+    padding-top: 15px;
+    text-align: center;
+  }
   .logo-position {
     float: left;
     padding-left: 19px;
     padding-right: 30px;
   }
   .head-title {
-      font-size: 45px;
+      font-size: 2.5em;
       font-weight: bold;
   }
   .header-flex {
@@ -136,7 +158,6 @@ body {
       max-width: 14%;
       padding: 20px;
       margin: 30px;
-      border: #10311d;
       background-image: radial-gradient(#fff, #9afdc3);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
@@ -144,6 +165,23 @@ body {
       font-weight: bold;
       font-size: 25px;
       text-align: center;
+  }
+  .mission {
+    background-color: #9afdc3;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .radio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    text-align: left;
+    max-width: 45%;
+    justify-content: space-around;
+    
+  }
+  input[type="radio"] {
+    margin: 0px 0px 20px 25px;
   }
   .pic {
       margin-top: 10px;
